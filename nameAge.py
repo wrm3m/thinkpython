@@ -1,4 +1,6 @@
+#This script is used to get to know phyton and github 
 
+#PROBLEM!! the program doesn't stop if I type in N
 
 i = 0
 again = ""
