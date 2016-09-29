@@ -17,10 +17,11 @@ def rotate_letter(letter,n):
 		return letter
 
 	numericLetter = ord(letter)
-	end = start+26
-
-	if numericLetter > end:
-		numericLetter = numericLetter-end
+	
+	end = start+26					#
+	if numericLetter > end:				# }this is a test, it doesn't have any influence on the program
+		numericLetter = numericLetter-end	#
+		
 	moved = chr(numericLetter+n)
 	return moved
 	
